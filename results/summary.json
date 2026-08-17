@@ -1,0 +1,317 @@
+{
+  "funnel_full_sample": [
+    [
+      "scraped A/H pair list",
+      150
+    ],
+    [
+      "both legs have price history",
+      150
+    ],
+    [
+      "ADV > CNY/HKD 5e+07 on both legs",
+      86
+    ],
+    [
+      "premium half-life < 20d",
+      2
+    ],
+    [
+      ">= 500 overlapping observations",
+      2
+    ]
+  ],
+  "funnel_pit": [
+    [
+      "scraped A/H pair list",
+      150
+    ],
+    [
+      "both legs have price history",
+      147
+    ],
+    [
+      "ADV > CNY/HKD 5e+07 on both legs",
+      72
+    ],
+    [
+      "premium half-life < 20d",
+      10
+    ],
+    [
+      ">= 500 overlapping observations",
+      6
+    ]
+  ],
+  "survivors_full": [
+    "CTG DUTY-FREE",
+    "HAIER SMARTHOME"
+  ],
+  "survivors_pit": [
+    "BEONE MEDICINES",
+    "CHINA MOBILE",
+    "CPIC",
+    "HAIER SMARTHOME",
+    "SMIC",
+    "WUXI APPTEC"
+  ],
+  "traded_pairs": [
+    "CTG DUTY-FREE",
+    "HAIER SMARTHOME"
+  ],
+  "eg_liquid_tested": 84,
+  "eg_pass": 46,
+  "breakeven_A_bps": {
+    "full": 143.6,
+    "in_sample": 223.3,
+    "out_of_sample": 76.8
+  },
+  "pit_book_oos": [
+    {
+      "book": "PIT-selected, OOS only",
+      "start": 1704153600000,
+      "end": 1786924800000,
+      "days": 663,
+      "years": 2.630952381,
+      "sharpe_gross": 0.544455864,
+      "sharpe_net": -0.8178726484,
+      "max_dd": -0.1152098879,
+      "total_return": -0.0949782793,
+      "ann_return": -0.0372212444,
+      "ann_vol": 0.0451266801,
+      "ann_turnover": 15.3559341475
+    },
+    {
+      "book": "CHINA MOBILE",
+      "start": 1704153600000,
+      "end": 1786924800000,
+      "days": 663,
+      "years": 2.630952381,
+      "sharpe_gross": 0.5655620721,
+      "sharpe_net": -0.7488108307,
+      "max_dd": -0.0859697173,
+      "total_return": -0.0827033375,
+      "ann_return": -0.0322786195,
+      "ann_vol": 0.0426027093,
+      "ann_turnover": 13.7809813112
+    },
+    {
+      "book": "SMIC",
+      "start": 1704153600000,
+      "end": 1786924800000,
+      "days": 663,
+      "years": 2.630952381,
+      "sharpe_gross": -0.0641713948,
+      "sharpe_net": -0.5480681893,
+      "max_dd": -0.2598144088,
+      "total_return": -0.1979625922,
+      "ann_return": -0.0804289566,
+      "ann_vol": 0.1357262676,
+      "ann_turnover": 16.4488677656
+    },
+    {
+      "book": "WUXI APPTEC",
+      "start": 1704153600000,
+      "end": 1786924800000,
+      "days": 663,
+      "years": 2.630952381,
+      "sharpe_gross": 0.4977255471,
+      "sharpe_net": 0.0270561774,
+      "max_dd": -0.15818657,
+      "total_return": -0.010522781,
+      "ann_return": -0.0040127288,
+      "ann_vol": 0.1222561051,
+      "ann_turnover": 14.6728027441
+    },
+    {
+      "book": "CPIC",
+      "start": 1704153600000,
+      "end": 1786924800000,
+      "days": 663,
+      "years": 2.630952381,
+      "sharpe_gross": 0.0072965458,
+      "sharpe_net": -0.5232535149,
+      "max_dd": -0.2139812164,
+      "total_return": -0.1569531419,
+      "ann_return": -0.0628331003,
+      "ann_vol": 0.1121148054,
+      "ann_turnover": 14.9050601233
+    },
+    {
+      "book": "BEONE MEDICINES",
+      "start": 1704153600000,
+      "end": 1786924800000,
+      "days": 663,
+      "years": 2.630952381,
+      "sharpe_gross": -0.0340835918,
+      "sharpe_net": -0.7986860424,
+      "max_dd": -0.2382389739,
+      "total_return": -0.1860637804,
+      "ann_return": -0.0752672238,
+      "ann_vol": 0.0925527526,
+      "ann_turnover": 17.6943742153
+    },
+    {
+      "book": "HAIER SMARTHOME",
+      "start": 1704153600000,
+      "end": 1786924800000,
+      "days": 663,
+      "years": 2.630952381,
+      "sharpe_gross": 1.377707877,
+      "sharpe_net": 0.2729079174,
+      "max_dd": -0.0781784985,
+      "total_return": 0.0342036624,
+      "ann_return": 0.0128651511,
+      "ann_vol": 0.0517340449,
+      "ann_turnover": 14.6335187254
+    }
+  ],
+  "headline": [
+    {
+      "window": "full",
+      "start": 1609718400000,
+      "end": 1786924800000,
+      "days": 1422,
+      "years": 5.6428571429,
+      "sharpe_gross": 1.2371834847,
+      "sharpe_net": 0.3859173857,
+      "max_dd": -0.1049218932,
+      "total_return": 0.1341895412,
+      "ann_return": 0.0225654756,
+      "ann_vol": 0.0628929736,
+      "ann_turnover": 13.9044644041
+    },
+    {
+      "window": "in_sample",
+      "start": 1609718400000,
+      "end": 1703808000000,
+      "days": 759,
+      "years": 3.0119047619,
+      "sharpe_gross": 2.1166675364,
+      "sharpe_net": 1.2178549898,
+      "max_dd": -0.0188622302,
+      "total_return": 0.1890262091,
+      "ann_return": 0.0591677355,
+      "ann_vol": 0.0481444453,
+      "ann_turnover": 11.887345735
+    },
+    {
+      "window": "out_of_sample",
+      "start": 1704153600000,
+      "end": 1786924800000,
+      "days": 663,
+      "years": 2.630952381,
+      "sharpe_gross": 0.6394647864,
+      "sharpe_net": -0.197391524,
+      "max_dd": -0.1049218932,
+      "total_return": -0.0461189733,
+      "ann_return": -0.0177863976,
+      "ann_vol": 0.0763223459,
+      "ann_turnover": 16.2136545547
+    }
+  ],
+  "per_pair": [
+    {
+      "pair": "CTG DUTY-FREE",
+      "start": 1661385600000,
+      "end": 1786924800000,
+      "days": 1005,
+      "years": 3.9880952381,
+      "sharpe_gross": 0.201721395,
+      "sharpe_net": -0.229702976,
+      "max_dd": -0.1940415506,
+      "total_return": -0.1263521907,
+      "ann_return": -0.0333031148,
+      "ann_vol": 0.1179245963,
+      "ann_turnover": 12.7330437723,
+      "round_trips": 25
+    },
+    {
+      "pair": "HAIER SMARTHOME",
+      "start": 1609718400000,
+      "end": 1786924800000,
+      "days": 1422,
+      "years": 5.6428571429,
+      "sharpe_gross": 1.8275087442,
+      "sharpe_net": 0.7766382751,
+      "max_dd": -0.0781784973,
+      "total_return": 0.2648508795,
+      "ann_return": 0.0425164554,
+      "ann_vol": 0.0555923039,
+      "ann_turnover": 15.4162483241,
+      "round_trips": 43
+    }
+  ],
+  "cost_sensitivity": [
+    {
+      "cost_A_bps": 0,
+      "cost_H_bps": 0,
+      "sharpe_full": 1.2371834847,
+      "totret_full": 0.5513432015,
+      "sharpe_in_sample": 2.1166675364,
+      "totret_in_sample": 0.3716489903,
+      "sharpe_out_of_sample": 0.6394647864,
+      "totret_out_of_sample": 0.1310059734
+    },
+    {
+      "cost_A_bps": 25,
+      "cost_H_bps": 15,
+      "sharpe_full": 1.0315871827,
+      "totret_full": 0.4346146824,
+      "sharpe_in_sample": 1.9086229666,
+      "totret_in_sample": 0.3235735873,
+      "sharpe_out_of_sample": 0.4341895371,
+      "totret_out_of_sample": 0.0838949162
+    },
+    {
+      "cost_A_bps": 50,
+      "cost_H_bps": 30,
+      "sharpe_full": 0.8204291875,
+      "totret_full": 0.3266021989,
+      "sharpe_in_sample": 1.6883079569,
+      "totret_in_sample": 0.2771479587,
+      "sharpe_out_of_sample": 0.2257882466,
+      "totret_out_of_sample": 0.0387224048
+    },
+    {
+      "cost_A_bps": 100,
+      "cost_H_bps": 60,
+      "sharpe_full": 0.3859173857,
+      "totret_full": 0.1341895412,
+      "sharpe_in_sample": 1.2178549898,
+      "totret_in_sample": 0.1890262091,
+      "sharpe_out_of_sample": -0.197391524,
+      "totret_out_of_sample": -0.0461189733
+    },
+    {
+      "cost_A_bps": 150,
+      "cost_H_bps": 90,
+      "sharpe_full": -0.0563050408,
+      "totret_full": -0.0305120757,
+      "sharpe_in_sample": 0.7232833453,
+      "totret_in_sample": 0.1068619683,
+      "sharpe_out_of_sample": -0.623650977,
+      "totret_out_of_sample": -0.1241112694
+    },
+    {
+      "cost_A_bps": 200,
+      "cost_H_bps": 120,
+      "sharpe_full": -0.4953124432,
+      "totret_full": -0.1714652076,
+      "sharpe_in_sample": 0.2263813337,
+      "totret_in_sample": 0.030260764,
+      "sharpe_out_of_sample": -1.0462332898,
+      "totret_out_of_sample": -0.1958008872
+    },
+    {
+      "cost_A_bps": 300,
+      "cost_H_bps": 180,
+      "sharpe_full": -1.3233220909,
+      "totret_full": -0.3952426747,
+      "sharpe_in_sample": -0.69494542,
+      "totret_in_sample": -0.1077041867,
+      "sharpe_out_of_sample": -1.8547874539,
+      "totret_out_of_sample": -0.3222456989
+    }
+  ]
+}
