@@ -2,6 +2,8 @@
 
 *Mean-reversion pair trade on Hong Kong / mainland dual-listed Chinese equities: Kalman hedge ratio, 60-day rolling z-score, cost-aware backtest with an in-sample / out-of-sample split.*
 
+**Bottom line:** after liquidity (ADV > CNY/HKD 5×10⁷ per leg) and ≤20-day half-life filtering, 2 of 150 A/H pairs survived; net of asymmetric per-leg costs (100 bps A / 60 bps H round trip) the strategy did not sustain a tradeable Sharpe out of sample (net −0.20 full-sample-selected, net −0.82 point-in-time-selected on a differently-selected pair set), consistent with the known difficulty of A/H convergence given borrow costs, stamp duty, and capital controls. The gross signal is directionally alive (Sharpe positive across every cut); costs and honest selection eat it.
+
 ---
 
 ## Overview
